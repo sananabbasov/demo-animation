@@ -102,3 +102,29 @@
         transform: scaleY(1);
    }
 }
+
+
+.box{
+    margin: 50px;
+    width: 200px;
+    height: 200px;
+    background: black;
+    animation: boxani 4s infinite;
+}
+@keyframes boxani{
+    0%{
+        transform: rotateY(180deg)
+    }
+    25%{
+        transform: rotateY(90deg);
+    }
+    50%{
+        transform: rotateY(-180deg);
+    }
+    75%{
+        transform: rotateY(-90deg);
+    }
+    100%{
+        transform: rotateY(180deg);
+   }
+}
