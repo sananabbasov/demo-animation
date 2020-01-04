@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.animation{
+    background: red;
+    width: 10px;
+    height: 50px;
+    position: absolute;
+    animation: ani 4s infinite;
+}
+.animation2{
+    background: red;
+    width: 10px;
+    height: 50px;
+    position: absolute;
+    animation: ani2 4s infinite;
+    left: 20px;
+}
+.animation3{
+    background: red;
+    width: 10px;
+    height: 50px;
+    position: absolute;
+    animation: ani3 4s infinite;
+    left: 40px;
+}
+.animation4{
+    background: red;
+    width: 10px;
+    height: 50px;
+    position: absolute;
+    animation: ani4 4s infinite;
+    left: 60px;
+}
+@keyframes ani{
+    0%{
+        transform: scaleY(1);
+    }
+    25%{
+        transform: scaleY(0);
+    }
+    50%{
+        transform: scaleY(1);
+    }
+    75%{
+        transform: scaleY(1);
+    }
+    100%{
+        transform: scaleY(0);
+   }
+}
+@keyframes ani2{
+    0%{
+        transform: scaleY(0);
+    }
+    25%{
+        transform: scaleY(1);
+    }
+    50%{
+        transform: scaleY(0);
+    }
+    75%{
+        transform: scaleY(0);
+    }
+    100%{
+        transform: scaleY(1);
+   }
+}
+@keyframes ani3{
+    0%{
+        transform: scaleY(0);
+    }
+    25%{
+        transform: scaleY(0);
+    }
+    50%{
+        transform: scaleY(0);
+    }
+    75%{
+        transform: scaleY(1);
+    }
+    100%{
+        transform: scaleY(0);
+   }
+}
+@keyframes ani4{
+    0%{
+        transform: scaleY(1);
+    }
+    25%{
+        transform: scaleY(0);
+    }
+    50%{
+        transform: scaleY(1);
+    }
+    75%{
+        transform: scaleY(0);
+    }
+    100%{
+        transform: scaleY(1);
+   }
+}
